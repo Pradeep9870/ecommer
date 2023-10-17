@@ -1,0 +1,18 @@
+.a_tbdr{
+    border: 1px solid red;
+}
+
+header{
+    height: 100px;
+    border: 1px solid blue;
+}
+
+main{
+    height: 1000px;
+    border: 1px solid green;
+}
+
+footer{
+    height: 200px;
+    border: 1px solid orange;
+}
