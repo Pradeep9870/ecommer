@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <>
-      <h1>Home pages</h1>
+      <h1>Home pages</h1>className
       <ul className="nav">
         {
           businessCategory.map((cv,idx,arr)=>{
@@ -34,6 +34,7 @@ export default function Home() {
                         {cv.attributes.name}
                       </a>
                     </li>
+                    
           })
         }
         

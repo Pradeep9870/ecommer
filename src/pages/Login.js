@@ -1,15 +1,16 @@
 //import { Button } from "bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap'; 
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "react-bootstrap";
 import React from "react";
 import { Form } from "react-bootstrap";
-
 
 export default function Login() {
   return (
     <>
+      {" "}
+      <h1 className="text-center">Login page</h1>
       <Form>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
           <Form.Text className="text-muted">
@@ -17,14 +18,12 @@ export default function Login() {
           </Form.Text>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group className="mb-3">
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
-        <Button variant="primary" type="submit">
+
+        <Button variant="primary" button="submit">
           Submit
         </Button>
       </Form>

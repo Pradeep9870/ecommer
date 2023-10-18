@@ -3,12 +3,10 @@ import Navigation from './Navigation'
 
 export default function Header() {
   return (
-    <>
-        <header>
-          Header
-          <Navigation></Navigation>
-                
-        </header>
-    </>
-  )
+            <>
+                <header>
+                  <Navigation></Navigation>
+                </header>
+            </>
+          )
 }
